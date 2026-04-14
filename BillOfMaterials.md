@@ -2,4 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|New Item|14|$0.00||
+|9mm M3 Bolt|9|$0.00||
+|DC Motor|1|$0.00||
+|10mm M3 Bolt|4|$0.00||
+|Total: |28|$0.00| |

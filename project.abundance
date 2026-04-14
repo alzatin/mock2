@@ -2207,6 +2207,10 @@
                     {
                       "name": "Angle",
                       "ioValue": 90
+                    },
+                    {
+                      "name": "Shape",
+                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -12169,6 +12173,10 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 60
+                                },
+                                {
+                                  "name": "Shape",
+                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -13405,6 +13413,18 @@
               ]
             },
             {
+              "atomType": "Import",
+              "x": 0.3694181326116373,
+              "y": 0.20121951219512196,
+              "uniqueID": "id-111375",
+              "fileName": "runner_fake.step",
+              "name": "Import",
+              "type": "STEP",
+              "repoOwner": "alzatin",
+              "repoName": "mock2",
+              "SVGwidth": 10
+            },
+            {
               "atomType": "GitHubMolecule",
               "x": 0.14616402116402116,
               "y": 0.4094707520891365,
@@ -14127,128 +14147,7 @@
                               "ioValues": [
                                 {
                                   "name": "Shape 1",
-                                  "ioValue": {
-                                    "geometry": [
-                                      {
-                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-8",
-                                        "dimension": "2D",
-                                        "tags": [],
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                      },
-                                      {
-                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-9",
-                                        "dimension": "2D",
-                                        "tags": [],
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                      },
-                                      {
-                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-10",
-                                        "dimension": "2D",
-                                        "tags": [],
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                      },
-                                      {
-                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-11",
-                                        "dimension": "2D",
-                                        "tags": [],
-                                        "plane": {
-                                          "origin": [
-                                            0,
-                                            0,
-                                            0
-                                          ],
-                                          "xDir": [
-                                            1,
-                                            0,
-                                            0
-                                          ],
-                                          "normal": [
-                                            0,
-                                            0,
-                                            1
-                                          ]
-                                        },
-                                        "color": "#aad7f2",
-                                        "bom": []
-                                      }
-                                    ],
-                                    "plane": {
-                                      "origin": [
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "xDir": [
-                                        1,
-                                        0,
-                                        0
-                                      ],
-                                      "normal": [
-                                        0,
-                                        0,
-                                        1
-                                      ]
-                                    },
-                                    "tags": [],
-                                    "color": "#aad7f2",
-                                    "bom": [],
-                                    "dimension": "2D",
-                                    "nonReplicadSerialized": []
-                                  }
+                                  "ioValue": null
                                 }
                               ],
                               "unionType": "Fusion"
@@ -14484,10 +14383,6 @@
                                     {
                                       "name": "Angle",
                                       "ioValue": 60
-                                    },
-                                    {
-                                      "name": "Shape",
-                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
@@ -15564,18 +15459,6 @@
                 }
               ],
               "fileTypeVersion": 1
-            },
-            {
-              "atomType": "Import",
-              "x": 0.3694181326116373,
-              "y": 0.20121951219512196,
-              "uniqueID": "id-111375",
-              "fileName": "runner_fake.step",
-              "name": "Import",
-              "type": "STEP",
-              "repoOwner": "alzatin",
-              "repoName": "mock2",
-              "SVGwidth": 10
             }
           ],
           "allConnectors": [
@@ -15600,6 +15483,11 @@
               "ap2ID": "id-105109"
             },
             {
+              "ap2Name": "Shape 3",
+              "ap1ID": "id-111375",
+              "ap2ID": "id-97423"
+            },
+            {
               "ap2Name": "Shape 1",
               "ap1ID": "id-97400",
               "ap2ID": "id-97423"
@@ -15613,11 +15501,6 @@
               "ap2Name": "geometry",
               "ap1ID": "id-105066",
               "ap2ID": "id-105115"
-            },
-            {
-              "ap2Name": "Shape 3",
-              "ap1ID": "id-111375",
-              "ap2ID": "id-97423"
             }
           ],
           "fileTypeVersion": 1
