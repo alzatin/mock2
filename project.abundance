@@ -2207,10 +2207,6 @@
                     {
                       "name": "Angle",
                       "ioValue": 90
-                    },
-                    {
-                      "name": "Shape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -2812,8 +2808,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.29828042328042326,
-          "y": 0.7214484679665739,
+          "x": 0.3037889039242219,
+          "y": 0.6920731707317074,
           "uniqueID": "id-97153",
           "name": "Idler Gear",
           "topLevel": false,
@@ -4140,8 +4136,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4668470906630582,
-          "y": 0.125,
+          "x": 0.469553450608931,
+          "y": 0.14634146341463417,
           "uniqueID": "id-98493",
           "name": "Upper Half",
           "topLevel": false,
@@ -8652,8 +8648,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.14817320703653586,
-          "y": 0.2621951219512195,
+          "x": 0.14682002706359945,
+          "y": 0.28353658536585363,
           "uniqueID": "id-96722",
           "name": "Lower Half",
           "topLevel": false,
@@ -12173,10 +12169,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 60
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -13286,8 +13278,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.4012178619756428,
-          "y": 0.8475609756097561,
+          "x": 0.4046008119079838,
+          "y": 0.8323170731707318,
           "uniqueID": "id-96658",
           "name": "Roller",
           "topLevel": false,
@@ -13306,8 +13298,8 @@
             },
             {
               "atomType": "Import",
-              "x": 0.26928281461434367,
-              "y": 0.2530487804878049,
+              "x": 0.2767253044654939,
+              "y": 0.25,
               "uniqueID": "id-96660",
               "fileName": "Roller.step",
               "name": "Import",
@@ -14492,6 +14484,10 @@
                                     {
                                       "name": "Angle",
                                       "ioValue": 60
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
