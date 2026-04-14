@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.38425925925925924,
-      "y": 0.47075208913649025,
+      "x": 0.39316987740805603,
+      "y": 0.45970149253731346,
       "uniqueID": "id-96648",
       "name": "Arm Assembly",
       "topLevel": false,
@@ -2207,10 +2207,6 @@
                     {
                       "name": "Angle",
                       "ioValue": 90
-                    },
-                    {
-                      "name": "Shape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
@@ -4204,8 +4200,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.11163734776725305,
-              "y": 0.5945121951219512,
+              "x": 0.11558669001751312,
+              "y": 0.6,
               "uniqueID": "id-102487",
               "name": "Circular Mounts",
               "topLevel": false,
@@ -4320,8 +4316,8 @@
                 },
                 {
                   "atomType": "Circle",
-                  "x": 0.4312169312169312,
-                  "y": 0.5821727019498607,
+                  "x": 0.42994746059544664,
+                  "y": 0.5970149253731343,
                   "uniqueID": "id-102665",
                   "ioValues": [
                     {
@@ -5118,8 +5114,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.5548941798941799,
-                  "y": 0.2924791086350975,
+                  "x": 0.5481611208406305,
+                  "y": 0.2955223880597015,
                   "uniqueID": "id-109497",
                   "name": "RotatePattern",
                   "ioValues": [
@@ -6396,8 +6392,8 @@
             },
             {
               "atomType": "Molecule",
-              "x": 0.10912698412698413,
-              "y": 0.2813370473537604,
+              "x": 0.10945709281961472,
+              "y": 0.2507462686567164,
               "uniqueID": "id-98507",
               "name": "Frame",
               "ioValues": [
@@ -6422,8 +6418,8 @@
                 },
                 {
                   "atomType": "Circle",
-                  "x": 0.24140211640211642,
-                  "y": 0.6323119777158774,
+                  "x": 0.28546409807355516,
+                  "y": 0.23582089552238802,
                   "uniqueID": "id-98509",
                   "ioValues": [
                     {
@@ -12173,10 +12169,6 @@
                                 {
                                   "name": "Angle",
                                   "ioValue": 60
-                                },
-                                {
-                                  "name": "Shape",
-                                  "ioValue": "__GEOMETRY_INPUT__"
                                 }
                               ],
                               "codeVersion": 1,
@@ -14147,7 +14139,128 @@
                               "ioValues": [
                                 {
                                   "name": "Shape 1",
-                                  "ioValue": null
+                                  "ioValue": {
+                                    "geometry": [
+                                      {
+                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-8",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                      },
+                                      {
+                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-9",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                      },
+                                      {
+                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-10",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                      },
+                                      {
+                                        "geometry": "5ea22352-4-60-{\"geometry\":\"move-circle-1.6-0-12.5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-11",
+                                        "dimension": "2D",
+                                        "tags": [],
+                                        "plane": {
+                                          "origin": [
+                                            0,
+                                            0,
+                                            0
+                                          ],
+                                          "xDir": [
+                                            1,
+                                            0,
+                                            0
+                                          ],
+                                          "normal": [
+                                            0,
+                                            0,
+                                            1
+                                          ]
+                                        },
+                                        "color": "#aad7f2",
+                                        "bom": []
+                                      }
+                                    ],
+                                    "plane": {
+                                      "origin": [
+                                        0,
+                                        0,
+                                        0
+                                      ],
+                                      "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                      ],
+                                      "normal": [
+                                        0,
+                                        0,
+                                        1
+                                      ]
+                                    },
+                                    "tags": [],
+                                    "color": "#aad7f2",
+                                    "bom": [],
+                                    "dimension": "2D",
+                                    "nonReplicadSerialized": []
+                                  }
                                 }
                               ],
                               "unionType": "Fusion"
@@ -14383,6 +14496,10 @@
                                     {
                                       "name": "Angle",
                                       "ioValue": 60
+                                    },
+                                    {
+                                      "name": "Shape",
+                                      "ioValue": "__GEOMETRY_INPUT__"
                                     }
                                   ],
                                   "codeVersion": 1,
